@@ -1,0 +1,16 @@
+Chọn k - Elbow.
++ Chọn nhiều k(1->n).
++ Tính error vẽ biểu đồ.
++ Chọn k là điểm có giá trị lỗi ở khửu tay.
+
+Cách viết báo cáo.
+IEEE template.
+1. Abstract: Giới thiệu chung.
+2. Introduction: Giới thiệu sâu.
+3. Toán học(vd trong KMeans)
+	+ input: dataset, k
+	+ output: nhãn
+4. Lossfunction và Optimizer
+
+One hot encoding: K = 2 => y_1[1, 0] : Dùng vector để biểu diễn nhãn của dữ liệu
+			K = 3 => y_2[1, 0, 0], y_3[0, 1, 0]
